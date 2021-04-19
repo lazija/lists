@@ -5,4 +5,4 @@ x="}},"
 for f in files:
     with open('dodaj_text.txt','a+', encoding="utf-8") as text_file:
         text_file.write('{Filename: "%s", Class : "#b1f2ff", wikipediaInfos : { en: "Left_coronary_artery", sr: "Артерија"'%f+x+'\n')
-print("Gotovo, sve dodato u datoteku 'dodaj_text.txt'")
+print("Done, all is add in 'text.txt'")
